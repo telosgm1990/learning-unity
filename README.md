@@ -10,7 +10,7 @@ To clone this repo, type in terminal:
 git clone git@github.com:telosgm1990/learning-unity.git
 ```
 
-## 2. Dependencies
+## 2. Dependencies (Ubuntu 22.04)
 
 ### 2.1. .NET (Ref 1.)
 
@@ -54,7 +54,13 @@ With project open, go to `File` > `Build Profiles` > `Android`, and click in `In
 
 An installation wizard will open, just follow it (use recommended options).
 
-## 3. References
+## 3. Tutorials
+
+The following tutorials was used to build the project.
+
+1. [Build A Complete Android Game Today - Unity Android Tutorial](https://youtu.be/3y28i5n2g0Q?si=RsId2pFY2BuGjfVx)
+
+## 4. References
 
 1. https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu-install?tabs=dotnet9&pivots=os-linux-ubuntu-2204
 2. https://docs.unity3d.com/hub/manual/InstallHub.html
