@@ -1,4 +1,7 @@
-using UnityEngine;
+using UnityEngine;                 // MonoBehaviour, Rigidbody2D, GetComponent, 
+                                   // Input, Vector3, Camera, Vector2, 
+                                   // Collision2D
+using UnityEngine.SceneManagement; // SceneManager
 
 public class Player : MonoBehaviour
 {
@@ -13,6 +16,14 @@ public class Player : MonoBehaviour
     void Update()
     {
         this.HandleMouse();
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "block")
+        {
+            SceneManager.LoadScene("Game");
+        }
     }
 
     void HandleMouse()
